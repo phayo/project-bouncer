@@ -1,14 +1,13 @@
 import React from 'react';
-import App from './App';
-
+import Cart from './Cart';
 import { render, cleanup, act } from '@testing-library/react';
 
 
 afterEach(cleanup);
 
 
-describe('General App tests', () => {
+describe('General Cart tests', () => {
   test('It renders', () => {
-    render(<App />);
+    render(<Cart />);
   });
 })

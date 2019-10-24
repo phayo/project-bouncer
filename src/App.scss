@@ -1,0 +1,90 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+// Heights
+$xs-height: 1.5rem;
+$sm-height: 3rem;
+$md-height: 6rem;
+$lg-height: 9rem;
+$xl-height: 15rem;
+
+//==================Colors ====================
+$dark-dd: #22262a;
+$dark-dl: #c1c8ce;
+$dark-ld: #e5e8ea;
+$dark-ll: #f1f3f4;
+$dark-l: #f6f7f8;
+//Dark blue=ish
+$dark-blue-bb: #0d2840;
+$dark-blue-bl: #19507f;
+$dark-blue-lb: #2678bf;
+$dark-blue-ll: #2e90e5;
+$dark-blue-l: #33a0ff;
+// Normal Blue
+$blue-m: #8f65ff;
+$blue-s: #9e7aff;
+$blue-n: #baa1ff;
+
+$color: #fefefecc;
+// Red-colors
+$red-m: #ff4252;
+$red-s: #ff4858;
+$red-n: #ff6875;
+// Green
+$green-n: #0ad00a;
+$green-n: #39db39;
+$green-n: #6de26d;
+// Light green
+$light-green-n: #ffc600;
+$light-green-n: #ffd33a;
+$light-green-n: #ffda58;
+
+// =============TYPO====================
+$heading1: 5.6rem;
+$heading2: 4.8rem;
+$heading3: 3.6rem;
+$heading4: 3rem;
+$heading5: 2.4rem;
+$heading6: 1.8rem;
+
+$container-padding: 0 20rem;
+
+// Mixins
+@mixin parag {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: left;
+  color: #262626;
+}
+
+@mixin heading {
+  font-weight: 600;
+  font-stretch: normal;
+  text-transform: uppercase;
+  font-style: normal;
+  line-height: 1.32;
+  text-align: left;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    line-height: 1.7;
+    color: $dark-dd;
+}

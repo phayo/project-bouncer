@@ -1,14 +1,13 @@
 import React from 'react';
-import App from './App';
-
+import Product from './Product';
 import { render, cleanup, act } from '@testing-library/react';
 
 
 afterEach(cleanup);
 
 
-describe('General App tests', () => {
+describe('General Product tests', () => {
   test('It renders', () => {
-    render(<App />);
+    render(<Product />);
   });
 })
